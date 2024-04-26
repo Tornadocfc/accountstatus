@@ -26,7 +26,8 @@ app.get('/', (req, res) => {
     setInterval(() => {
         client.user.setActivity(statuses[i], {
             type: 'STREAMING',
-            url: 'https://www.twitch.tv/youzarx'
+            url: 'https://www.twitch.tv/tornadotripleseven'
+          
         });
         i = ++i % statuses.length;
     }, 1e4);
